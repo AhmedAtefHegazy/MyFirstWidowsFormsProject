@@ -59,5 +59,11 @@ namespace MyFirstWidowsFormsProject_PIZZA_
             Form frm = new frmDrawing_In_C_();
             frm.ShowDialog();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmMaskedTextBox();
+            frm.ShowDialog();
+        }
     }
 }

@@ -14,7 +14,7 @@ namespace MyFirstWidowsFormsProject_PIZZA_
 
         private void button1_Click(object sender, EventArgs e)
         {
-            pbStrongWeak.Image = Image.FromFile("C:/Users/ahmed/Desktop/Weak.png");
+            pbStrongWeak.Image = Image.FromFile("D:/Ahmed/s/programming learn/studying/Part 2 (C# & SQL)/Course 14/MyFirstWidowsFormsProject(PIZZA)/Weak.png");
         }
 
         private void button2_Click(object sender, EventArgs e)
