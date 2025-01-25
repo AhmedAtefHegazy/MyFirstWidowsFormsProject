@@ -83,5 +83,17 @@ namespace MyFirstWidowsFormsProject_PIZZA_
             Form frm = new frmLinkLabel();
             frm.ShowDialog();
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmChkedListBox();
+            frm.ShowDialog();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmDateTimePicker();
+            frm.ShowDialog();
+        }
     }
 }

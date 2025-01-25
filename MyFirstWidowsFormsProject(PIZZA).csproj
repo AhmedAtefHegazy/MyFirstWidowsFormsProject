@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -51,6 +52,12 @@
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChkedListBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChkedListBox.Designer.cs">
+      <DependentUpon>frmChkedListBox.cs</DependentUpon>
     </Compile>
     <Compile Include="frmChkRadioGroup.cs">
       <SubType>Form</SubType>
@@ -69,6 +76,12 @@
     </Compile>
     <Compile Include="frmComboBoxExercise.Designer.cs">
       <DependentUpon>frmComboBoxExercise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDateTimePicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDateTimePicker.Designer.cs">
+      <DependentUpon>frmDateTimePicker.cs</DependentUpon>
     </Compile>
     <Compile Include="frmDrawing_In_C#.cs">
       <SubType>Form</SubType>
@@ -123,6 +136,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmChkedListBox.resx">
+      <DependentUpon>frmChkedListBox.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmChkRadioGroup.resx">
       <DependentUpon>frmChkRadioGroup.cs</DependentUpon>
     </EmbeddedResource>
@@ -131,6 +147,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmComboBoxExercise.resx">
       <DependentUpon>frmComboBoxExercise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDateTimePicker.resx">
+      <DependentUpon>frmDateTimePicker.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmDrawing_In_C#.resx">
       <DependentUpon>frmDrawing_In_C#.cs</DependentUpon>
