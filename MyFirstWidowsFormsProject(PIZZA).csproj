@@ -58,11 +58,29 @@
     <Compile Include="frmChkRadioGroup.Designer.cs">
       <DependentUpon>frmChkRadioGroup.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmComboBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmComboBox.Designer.cs">
+      <DependentUpon>frmComboBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmComboBoxExercise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmComboBoxExercise.Designer.cs">
+      <DependentUpon>frmComboBoxExercise.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmDrawing_In_C#.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmDrawing_In_C#.Designer.cs">
       <DependentUpon>frmDrawing_In_C#.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLinkLabel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLinkLabel.Designer.cs">
+      <DependentUpon>frmLinkLabel.cs</DependentUpon>
     </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
@@ -108,8 +126,17 @@
     <EmbeddedResource Include="frmChkRadioGroup.resx">
       <DependentUpon>frmChkRadioGroup.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmComboBox.resx">
+      <DependentUpon>frmComboBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmComboBoxExercise.resx">
+      <DependentUpon>frmComboBoxExercise.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmDrawing_In_C#.resx">
       <DependentUpon>frmDrawing_In_C#.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLinkLabel.resx">
+      <DependentUpon>frmLinkLabel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>

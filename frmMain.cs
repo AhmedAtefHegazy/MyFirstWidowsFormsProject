@@ -65,5 +65,23 @@ namespace MyFirstWidowsFormsProject_PIZZA_
             Form frm = new frmMaskedTextBox();
             frm.ShowDialog();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmComboBox();
+            frm.ShowDialog();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmComboBoxExercise();
+            frm.ShowDialog();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmLinkLabel();
+            frm.ShowDialog();
+        }
     }
 }

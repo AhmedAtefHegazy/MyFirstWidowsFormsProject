@@ -37,6 +37,9 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnShowPart1
@@ -44,7 +47,7 @@
             this.btnShowPart1.Location = new System.Drawing.Point(9, 10);
             this.btnShowPart1.Margin = new System.Windows.Forms.Padding(2);
             this.btnShowPart1.Name = "btnShowPart1";
-            this.btnShowPart1.Size = new System.Drawing.Size(582, 74);
+            this.btnShowPart1.Size = new System.Drawing.Size(192, 74);
             this.btnShowPart1.TabIndex = 0;
             this.btnShowPart1.Text = "Show Form";
             this.btnShowPart1.UseVisualStyleBackColor = true;
@@ -55,7 +58,7 @@
             this.btnShowDialog.Location = new System.Drawing.Point(9, 89);
             this.btnShowDialog.Margin = new System.Windows.Forms.Padding(2);
             this.btnShowDialog.Name = "btnShowDialog";
-            this.btnShowDialog.Size = new System.Drawing.Size(582, 74);
+            this.btnShowDialog.Size = new System.Drawing.Size(192, 74);
             this.btnShowDialog.TabIndex = 1;
             this.btnShowDialog.Text = "Show Form as dialog";
             this.btnShowDialog.UseVisualStyleBackColor = true;
@@ -66,7 +69,7 @@
             this.btnMessageBoxForm.Location = new System.Drawing.Point(9, 167);
             this.btnMessageBoxForm.Margin = new System.Windows.Forms.Padding(2);
             this.btnMessageBoxForm.Name = "btnMessageBoxForm";
-            this.btnMessageBoxForm.Size = new System.Drawing.Size(582, 74);
+            this.btnMessageBoxForm.Size = new System.Drawing.Size(192, 74);
             this.btnMessageBoxForm.TabIndex = 2;
             this.btnMessageBoxForm.Text = "Show Message Box Form";
             this.btnMessageBoxForm.UseVisualStyleBackColor = true;
@@ -77,7 +80,7 @@
             this.button1.Location = new System.Drawing.Point(9, 246);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(582, 74);
+            this.button1.Size = new System.Drawing.Size(192, 74);
             this.button1.TabIndex = 3;
             this.button1.Text = "CheckBox/Radio/Group";
             this.button1.UseVisualStyleBackColor = true;
@@ -88,7 +91,7 @@
             this.button2.Location = new System.Drawing.Point(9, 325);
             this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(582, 74);
+            this.button2.Size = new System.Drawing.Size(192, 74);
             this.button2.TabIndex = 4;
             this.button2.Text = "More About Text Boxes";
             this.button2.UseVisualStyleBackColor = true;
@@ -96,10 +99,10 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(7, 403);
+            this.button3.Location = new System.Drawing.Point(205, 10);
             this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(582, 74);
+            this.button3.Size = new System.Drawing.Size(192, 74);
             this.button3.TabIndex = 5;
             this.button3.Text = "Picture Box";
             this.button3.UseVisualStyleBackColor = true;
@@ -107,10 +110,10 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(9, 481);
+            this.button4.Location = new System.Drawing.Point(205, 89);
             this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(582, 74);
+            this.button4.Size = new System.Drawing.Size(192, 74);
             this.button4.TabIndex = 6;
             this.button4.Text = "Picture Box Excercise";
             this.button4.UseVisualStyleBackColor = true;
@@ -118,10 +121,10 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(9, 559);
+            this.button5.Location = new System.Drawing.Point(205, 167);
             this.button5.Margin = new System.Windows.Forms.Padding(2);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(582, 74);
+            this.button5.Size = new System.Drawing.Size(192, 74);
             this.button5.TabIndex = 7;
             this.button5.Text = "Draw Line , ellipse , and rectangle.";
             this.button5.UseVisualStyleBackColor = true;
@@ -129,20 +132,56 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(7, 637);
+            this.button6.Location = new System.Drawing.Point(205, 246);
             this.button6.Margin = new System.Windows.Forms.Padding(2);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(582, 74);
+            this.button6.Size = new System.Drawing.Size(192, 74);
             this.button6.TabIndex = 8;
             this.button6.Text = "Masked Text Box";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(205, 325);
+            this.button7.Margin = new System.Windows.Forms.Padding(2);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(192, 74);
+            this.button7.TabIndex = 9;
+            this.button7.Text = "Combo Box";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(401, 11);
+            this.button8.Margin = new System.Windows.Forms.Padding(2);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(192, 74);
+            this.button8.TabIndex = 10;
+            this.button8.Text = "Combo Box Excercise";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(402, 89);
+            this.button9.Margin = new System.Windows.Forms.Padding(2);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(192, 74);
+            this.button9.TabIndex = 11;
+            this.button9.Text = "Link label";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 718);
+            this.ClientSize = new System.Drawing.Size(605, 400);
+            this.Controls.Add(this.button9);
+            this.Controls.Add(this.button8);
+            this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -170,5 +209,8 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
     }
 }
