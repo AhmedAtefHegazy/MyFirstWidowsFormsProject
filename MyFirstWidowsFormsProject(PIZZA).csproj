@@ -113,11 +113,23 @@
     <Compile Include="frmMessageBox.Designer.cs">
       <DependentUpon>frmMessageBox.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmMonthCalender.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMonthCalender.Designer.cs">
+      <DependentUpon>frmMonthCalender.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMoreAboutTxt.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmMoreAboutTxt.Designer.cs">
       <DependentUpon>frmMoreAboutTxt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNotifyIcon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNotifyIcon.Designer.cs">
+      <DependentUpon>frmNotifyIcon.cs</DependentUpon>
     </Compile>
     <Compile Include="frmPBExercise.cs">
       <SubType>Form</SubType>
@@ -130,6 +142,12 @@
     </Compile>
     <Compile Include="frmPictureBox.Designer.cs">
       <DependentUpon>frmPictureBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTimer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTimer.Designer.cs">
+      <DependentUpon>frmTimer.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -166,14 +184,23 @@
     <EmbeddedResource Include="frmMessageBox.resx">
       <DependentUpon>frmMessageBox.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmMonthCalender.resx">
+      <DependentUpon>frmMonthCalender.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMoreAboutTxt.resx">
       <DependentUpon>frmMoreAboutTxt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNotifyIcon.resx">
+      <DependentUpon>frmNotifyIcon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPBExercise.resx">
       <DependentUpon>frmPBExercise.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPictureBox.resx">
       <DependentUpon>frmPictureBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTimer.resx">
+      <DependentUpon>frmTimer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

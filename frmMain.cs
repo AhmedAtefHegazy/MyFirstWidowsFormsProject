@@ -95,5 +95,23 @@ namespace MyFirstWidowsFormsProject_PIZZA_
             Form frm = new frmDateTimePicker();
             frm.ShowDialog();
         }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmMonthCalender();
+            frm.ShowDialog();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmTimer();
+            frm.ShowDialog();
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmNotifyIcon();
+            frm.ShowDialog();
+        }
     }
 }
