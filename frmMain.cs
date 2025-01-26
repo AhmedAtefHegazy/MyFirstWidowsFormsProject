@@ -5,9 +5,9 @@ using System.Windows.Forms;
 
 namespace MyFirstWidowsFormsProject_PIZZA_
 {
-    public partial class frmMain : Form
+    public partial class frmTreeViewHassounaAcademy : Form
     {
-        public frmMain()
+        public frmTreeViewHassounaAcademy()
         {
             InitializeComponent();
         }
@@ -118,6 +118,11 @@ namespace MyFirstWidowsFormsProject_PIZZA_
         {
             Form frm = new frmTreeView_ImageList();
             frm.ShowDialog();
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

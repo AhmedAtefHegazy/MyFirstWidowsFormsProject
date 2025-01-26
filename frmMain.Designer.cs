@@ -1,6 +1,6 @@
 ﻿namespace MyFirstWidowsFormsProject_PIZZA_
 {
-    partial class frmMain
+    partial class frmTreeViewHassounaAcademy
     {
         /// <summary>
         /// Required designer variable.
@@ -254,8 +254,9 @@
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(256, 91);
             this.button16.TabIndex = 18;
-            this.button16.Text = "Tree View & Image List Hasouna Acadimy Excercise";
+            this.button16.Text = "Tree View Hassouna Acadimy Excercise";
             this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // frmMain
             // 
