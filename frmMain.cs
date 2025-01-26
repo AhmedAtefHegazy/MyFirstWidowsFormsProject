@@ -5,9 +5,9 @@ using System.Windows.Forms;
 
 namespace MyFirstWidowsFormsProject_PIZZA_
 {
-    public partial class frmTreeViewHassounaAcademy : Form
+    public partial class frmMain : Form
     {
-        public frmTreeViewHassounaAcademy()
+        public frmMain()
         {
             InitializeComponent();
         }
