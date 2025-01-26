@@ -113,5 +113,11 @@ namespace MyFirstWidowsFormsProject_PIZZA_
             Form frm = new frmNotifyIcon();
             frm.ShowDialog();
         }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmTreeView_ImageList();
+            frm.ShowDialog();
+        }
     }
 }
