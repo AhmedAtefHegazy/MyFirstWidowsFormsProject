@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cash.Designer.cs">
+      <DependentUpon>Cash.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +94,12 @@
     </Compile>
     <Compile Include="frmDrawing_In_C#.Designer.cs">
       <DependentUpon>frmDrawing_In_C#.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHome.Designer.cs">
+      <DependentUpon>frmHome.cs</DependentUpon>
     </Compile>
     <Compile Include="frmLinkLabel.cs">
       <SubType>Form</SubType>
@@ -137,11 +149,23 @@
     <Compile Include="frmPBExercise.Designer.cs">
       <DependentUpon>frmPBExercise.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmPerson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPerson.Designer.cs">
+      <DependentUpon>frmPerson.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmPictureBox.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmPictureBox.Designer.cs">
       <DependentUpon>frmPictureBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProgressBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProgressBar.Designer.cs">
+      <DependentUpon>frmProgressBar.cs</DependentUpon>
     </Compile>
     <Compile Include="frmTimer.cs">
       <SubType>Form</SubType>
@@ -155,8 +179,29 @@
     <Compile Include="frmTreeView&amp;ImageList.Designer.cs">
       <DependentUpon>frmTreeView&amp;ImageList.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmTreeViewHassouna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTreeViewHassouna.Designer.cs">
+      <DependentUpon>frmTreeViewHassouna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Notes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Notes.Designer.cs">
+      <DependentUpon>Notes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tables.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tables.Designer.cs">
+      <DependentUpon>Tables.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Cash.resx">
+      <DependentUpon>Cash.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -177,6 +222,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmDrawing_In_C#.resx">
       <DependentUpon>frmDrawing_In_C#.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHome.resx">
+      <DependentUpon>frmHome.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLinkLabel.resx">
       <DependentUpon>frmLinkLabel.cs</DependentUpon>
@@ -202,14 +250,26 @@
     <EmbeddedResource Include="frmPBExercise.resx">
       <DependentUpon>frmPBExercise.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmPerson.resx">
+      <DependentUpon>frmPerson.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmPictureBox.resx">
       <DependentUpon>frmPictureBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProgressBar.resx">
+      <DependentUpon>frmProgressBar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmTimer.resx">
       <DependentUpon>frmTimer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmTreeView&amp;ImageList.resx">
       <DependentUpon>frmTreeView&amp;ImageList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTreeViewHassouna.resx">
+      <DependentUpon>frmTreeViewHassouna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notes.resx">
+      <DependentUpon>Notes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -221,6 +281,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Tables.resx">
+      <DependentUpon>Tables.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

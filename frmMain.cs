@@ -122,7 +122,14 @@ namespace MyFirstWidowsFormsProject_PIZZA_
 
         private void button16_Click(object sender, EventArgs e)
         {
+            Form frm = new frmTreeViewHassouna();
+            frm.ShowDialog();
+        }
 
+        private void button17_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmProgressBar();
+            frm.Show();
         }
     }
 }
