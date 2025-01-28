@@ -2,6 +2,7 @@
 
 using System;
 using System.Windows.Forms;
+using ListViewProgram;
 
 namespace MyFirstWidowsFormsProject_PIZZA_
 {
@@ -129,6 +130,12 @@ namespace MyFirstWidowsFormsProject_PIZZA_
         private void button17_Click(object sender, EventArgs e)
         {
             Form frm = new frmProgressBar();
+            frm.Show();
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmListView();
             frm.Show();
         }
     }
