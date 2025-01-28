@@ -33,14 +33,24 @@ namespace ListViewProgram
         {
             //int SelectedItemsCount = listView1.SelectedItems.Count; // we implement it like this because it's changed when we press the button
 
-
+                
             //for (int i = 0; i < listView1.SelectedItems.Count; i++)
             //    listView1.Items.Remove(listView1.SelectedItems[0]);
 
-            foreach (ListViewItem item in listView1.SelectedItems)
+            if (listView1.SelectedItems.Count > 0)
             {
-                listView1.Items.Remove(item);
+                foreach (ListViewItem item in listView1.SelectedItems)
+                {
+                    listView1.Items.Remove(item);
+                }
             }
+
+            // Show a message box if no item is selected
+            else
+            {
+                MessageBox.Show("Please select an item to remove.", "No Selection", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
         }
 
         private void btnFillRandom_Click(object sender, System.EventArgs e)
