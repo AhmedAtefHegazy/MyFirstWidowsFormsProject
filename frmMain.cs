@@ -130,13 +130,25 @@ namespace MyFirstWidowsFormsProject_PIZZA_
         private void button17_Click(object sender, EventArgs e)
         {
             Form frm = new frmProgressBar();
-            frm.Show();
+            frm.ShowDialog();
         }
 
         private void button18_Click(object sender, EventArgs e)
         {
             Form frm = new frmListView();
-            frm.Show();
+            frm.ShowDialog();
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmErrorProvider();
+            frm.ShowDialog();
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmTrackBar();
+            frm.ShowDialog();
         }
     }
 }

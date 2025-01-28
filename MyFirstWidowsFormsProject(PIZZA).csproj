@@ -95,6 +95,12 @@
     <Compile Include="frmDrawing_In_C#.Designer.cs">
       <DependentUpon>frmDrawing_In_C#.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmErrorProvider.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmErrorProvider.Designer.cs">
+      <DependentUpon>frmErrorProvider.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmHome.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -179,6 +185,12 @@
     <Compile Include="frmTimer.Designer.cs">
       <DependentUpon>frmTimer.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmTrackBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTrackBar.Designer.cs">
+      <DependentUpon>frmTrackBar.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmTreeView&amp;ImageList.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -229,6 +241,9 @@
     <EmbeddedResource Include="frmDrawing_In_C#.resx">
       <DependentUpon>frmDrawing_In_C#.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmErrorProvider.resx">
+      <DependentUpon>frmErrorProvider.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmHome.resx">
       <DependentUpon>frmHome.cs</DependentUpon>
     </EmbeddedResource>
@@ -270,6 +285,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmTimer.resx">
       <DependentUpon>frmTimer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTrackBar.resx">
+      <DependentUpon>frmTrackBar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmTreeView&amp;ImageList.resx">
       <DependentUpon>frmTreeView&amp;ImageList.cs</DependentUpon>

@@ -33,7 +33,7 @@ namespace ListViewProgram
         {
             //int SelectedItemsCount = listView1.SelectedItems.Count; // we implement it like this because it's changed when we press the button
 
-                
+
             //for (int i = 0; i < listView1.SelectedItems.Count; i++)
             //    listView1.Items.Remove(listView1.SelectedItems[0]);
 
