@@ -34,7 +34,6 @@
             this.LVIName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.LVIID = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.listView1 = new System.Windows.Forms.ListView();
-            this.imageList2 = new System.Windows.Forms.ImageList(this.components);
             this.rbFemale = new System.Windows.Forms.RadioButton();
             this.rbMale = new System.Windows.Forms.RadioButton();
             this.btnFillRandom = new System.Windows.Forms.Button();
@@ -50,6 +49,7 @@
             this.txtID = new System.Windows.Forms.TextBox();
             this.btnAdd = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.imageList2 = new System.Windows.Forms.ImageList(this.components);
             this.gbView.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -87,13 +87,6 @@
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
             this.listView1.ItemActivate += new System.EventHandler(this.listView1_ItemActivate);
-            // 
-            // imageList2
-            // 
-            this.imageList2.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList2.ImageStream")));
-            this.imageList2.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList2.Images.SetKeyName(0, "Boy2.png");
-            this.imageList2.Images.SetKeyName(1, "Girl2.png");
             // 
             // rbFemale
             // 
@@ -251,6 +244,13 @@
             this.label1.TabIndex = 9;
             this.label1.Text = "ID:";
             // 
+            // imageList2
+            // 
+            this.imageList2.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList2.ImageStream")));
+            this.imageList2.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList2.Images.SetKeyName(0, "Boy2.png");
+            this.imageList2.Images.SetKeyName(1, "Girl2.png");
+            // 
             // frmListView
             // 
             this.AcceptButton = this.btnAdd;
@@ -282,7 +282,6 @@
         private System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.ColumnHeader LVIName;
         private System.Windows.Forms.ColumnHeader LVIID;
-        private System.Windows.Forms.ImageList imageList2;
         private System.Windows.Forms.RadioButton rbFemale;
         private System.Windows.Forms.RadioButton rbMale;
         private System.Windows.Forms.Button btnFillRandom;
@@ -299,5 +298,6 @@
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.ImageList imageList2;
     }
 }
