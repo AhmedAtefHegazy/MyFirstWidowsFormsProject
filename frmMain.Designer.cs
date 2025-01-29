@@ -54,6 +54,7 @@
             this.button21 = new System.Windows.Forms.Button();
             this.button22 = new System.Windows.Forms.Button();
             this.button23 = new System.Windows.Forms.Button();
+            this.button24 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnShowPart1
@@ -342,11 +343,23 @@
             this.button23.UseVisualStyleBackColor = true;
             this.button23.Click += new System.EventHandler(this.button23_Click);
             // 
+            // button24
+            // 
+            this.button24.Location = new System.Drawing.Point(1058, 205);
+            this.button24.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button24.Name = "button24";
+            this.button24.Size = new System.Drawing.Size(256, 91);
+            this.button24.TabIndex = 26;
+            this.button24.Text = "Dialogs";
+            this.button24.UseVisualStyleBackColor = true;
+            this.button24.Click += new System.EventHandler(this.button24_Click);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1321, 596);
+            this.Controls.Add(this.button24);
             this.Controls.Add(this.button23);
             this.Controls.Add(this.button22);
             this.Controls.Add(this.button21);
@@ -408,5 +421,6 @@
         private System.Windows.Forms.Button button21;
         private System.Windows.Forms.Button button22;
         private System.Windows.Forms.Button button23;
+        private System.Windows.Forms.Button button24;
     }
 }

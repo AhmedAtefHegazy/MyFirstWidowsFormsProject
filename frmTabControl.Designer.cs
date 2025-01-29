@@ -40,21 +40,22 @@
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.btnAddStudent = new System.Windows.Forms.Button();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.btnAddStudent = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.btnAddStudentsTab = new System.Windows.Forms.Button();
-            this.btnStudentsListTab = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnStudentsListTab = new System.Windows.Forms.Button();
+            this.btnAddStudentsTab = new System.Windows.Forms.Button();
+            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.tabPage3.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -100,7 +101,8 @@
             this.columnHeader1,
             this.columnHeader2,
             this.columnHeader3,
-            this.columnHeader4});
+            this.columnHeader4,
+            this.columnHeader5});
             this.listView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listView1.FullRowSelect = true;
             this.listView1.GridLines = true;
@@ -155,6 +157,82 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "  Add Students  ";
             // 
+            // btnAddStudent
+            // 
+            this.btnAddStudent.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddStudent.Location = new System.Drawing.Point(655, 416);
+            this.btnAddStudent.Name = "btnAddStudent";
+            this.btnAddStudent.Size = new System.Drawing.Size(215, 81);
+            this.btnAddStudent.TabIndex = 10;
+            this.btnAddStudent.Text = "Add";
+            this.btnAddStudent.UseVisualStyleBackColor = true;
+            this.btnAddStudent.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(325, 264);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(514, 56);
+            this.comboBox2.TabIndex = 9;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.ItemHeight = 48;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Primary",
+            "Prepatory",
+            "Secondary"});
+            this.comboBox1.Location = new System.Drawing.Point(325, 182);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(514, 56);
+            this.comboBox1.TabIndex = 8;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(37, 267);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(125, 48);
+            this.label5.TabIndex = 7;
+            this.label5.Text = "Class";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(37, 185);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(136, 48);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "Grade";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(37, 103);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(131, 48);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Name";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(325, 100);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(514, 55);
+            this.textBox2.TabIndex = 2;
+            this.textBox2.Validating += new System.ComponentModel.CancelEventHandler(this.textBox2_Validating);
+            // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -177,82 +255,6 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "ID";
             // 
-            // textBox2
-            // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(325, 100);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(514, 55);
-            this.textBox2.TabIndex = 2;
-            this.textBox2.Validating += new System.ComponentModel.CancelEventHandler(this.textBox2_Validating);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(37, 103);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(131, 48);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Name";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(37, 185);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(136, 48);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Grade";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(37, 267);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(125, 48);
-            this.label5.TabIndex = 7;
-            this.label5.Text = "Class";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.ItemHeight = 48;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Primary",
-            "Prepatory",
-            "Secondary"});
-            this.comboBox1.Location = new System.Drawing.Point(325, 182);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(514, 56);
-            this.comboBox1.TabIndex = 8;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(325, 264);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(514, 56);
-            this.comboBox2.TabIndex = 9;
-            // 
-            // btnAddStudent
-            // 
-            this.btnAddStudent.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddStudent.Location = new System.Drawing.Point(655, 416);
-            this.btnAddStudent.Name = "btnAddStudent";
-            this.btnAddStudent.Size = new System.Drawing.Size(215, 81);
-            this.btnAddStudent.TabIndex = 10;
-            this.btnAddStudent.Text = "Add";
-            this.btnAddStudent.UseVisualStyleBackColor = true;
-            this.btnAddStudent.Click += new System.EventHandler(this.button2_Click);
-            // 
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
@@ -266,40 +268,6 @@
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(895, 568);
             this.tabControl1.TabIndex = 0;
-            // 
-            // btnAddStudentsTab
-            // 
-            this.btnAddStudentsTab.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnAddStudentsTab.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.btnAddStudentsTab.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddStudentsTab.Location = new System.Drawing.Point(8, 457);
-            this.btnAddStudentsTab.Name = "btnAddStudentsTab";
-            this.btnAddStudentsTab.Size = new System.Drawing.Size(260, 60);
-            this.btnAddStudentsTab.TabIndex = 0;
-            this.btnAddStudentsTab.Text = "Add Students";
-            this.btnAddStudentsTab.UseVisualStyleBackColor = true;
-            this.btnAddStudentsTab.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // btnStudentsListTab
-            // 
-            this.btnStudentsListTab.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnStudentsListTab.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnStudentsListTab.Location = new System.Drawing.Point(321, 457);
-            this.btnStudentsListTab.Name = "btnStudentsListTab";
-            this.btnStudentsListTab.Size = new System.Drawing.Size(260, 60);
-            this.btnStudentsListTab.TabIndex = 2;
-            this.btnStudentsListTab.Text = "Students List";
-            this.btnStudentsListTab.UseVisualStyleBackColor = true;
-            this.btnStudentsListTab.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(237, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 76);
-            this.label1.TabIndex = 3;
             // 
             // tabPage1
             // 
@@ -329,6 +297,45 @@
             this.button1.Text = "Close";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(237, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(0, 76);
+            this.label1.TabIndex = 3;
+            // 
+            // btnStudentsListTab
+            // 
+            this.btnStudentsListTab.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnStudentsListTab.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStudentsListTab.Location = new System.Drawing.Point(321, 457);
+            this.btnStudentsListTab.Name = "btnStudentsListTab";
+            this.btnStudentsListTab.Size = new System.Drawing.Size(260, 60);
+            this.btnStudentsListTab.TabIndex = 2;
+            this.btnStudentsListTab.Text = "Students List";
+            this.btnStudentsListTab.UseVisualStyleBackColor = true;
+            this.btnStudentsListTab.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // btnAddStudentsTab
+            // 
+            this.btnAddStudentsTab.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnAddStudentsTab.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.btnAddStudentsTab.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddStudentsTab.Location = new System.Drawing.Point(8, 457);
+            this.btnAddStudentsTab.Name = "btnAddStudentsTab";
+            this.btnAddStudentsTab.Size = new System.Drawing.Size(260, 60);
+            this.btnAddStudentsTab.TabIndex = 0;
+            this.btnAddStudentsTab.Text = "Add Students";
+            this.btnAddStudentsTab.UseVisualStyleBackColor = true;
+            this.btnAddStudentsTab.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // columnHeader5
+            // 
+            this.columnHeader5.Text = "Time Added";
+            this.columnHeader5.Width = 107;
             // 
             // frmTabControl
             // 
@@ -384,5 +391,6 @@
         private System.Windows.Forms.ColumnHeader columnHeader3;
         private System.Windows.Forms.ColumnHeader columnHeader4;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ColumnHeader columnHeader5;
     }
 }

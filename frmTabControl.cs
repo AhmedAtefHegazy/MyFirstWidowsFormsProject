@@ -120,6 +120,7 @@ namespace MyFirstWidowsFormsProject_PIZZA_
                 Item.SubItems.Add(textBox2.Text);
                 Item.SubItems.Add(comboBox1.Text);
                 Item.SubItems.Add(comboBox2.Text);
+                Item.SubItems.Add(DateTime.Now.ToString());
 
                 textBox2.Focus();
                 textBox1.Tag = Convert.ToInt16(textBox1.Tag) + 1;

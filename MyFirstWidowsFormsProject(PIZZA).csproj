@@ -95,6 +95,12 @@
     <Compile Include="frmDateTimePicker.Designer.cs">
       <DependentUpon>frmDateTimePicker.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmDialogs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDialogs.Designer.cs">
+      <DependentUpon>frmDialogs.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmDrawing_In_C#.cs">
       <SubType>Form</SubType>
     </Compile>

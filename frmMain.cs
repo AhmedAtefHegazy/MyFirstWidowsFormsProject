@@ -168,5 +168,11 @@ namespace MyFirstWidowsFormsProject_PIZZA_
             Form frm = new frmGroupBoxvsPanel();
             frm.ShowDialog();
         }
+
+        private void button24_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmDialogs();
+            frm.ShowDialog();
+        }
     }
 }
