@@ -150,5 +150,17 @@ namespace MyFirstWidowsFormsProject_PIZZA_
             Form frm = new frmTrackBar();
             frm.ShowDialog();
         }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmNumericUPDOWN();
+            frm.ShowDialog();
+        }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmTabControl();
+            frm.ShowDialog();
+        }
     }
 }
