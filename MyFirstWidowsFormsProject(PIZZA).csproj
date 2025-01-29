@@ -368,6 +368,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\Boy2.png" />
+    <Content Include="Resources\card.png" />
     <Content Include="Resources\Girl2.png" />
     <Content Include="Resources\TreeViewList.png" />
     <None Include="Resources\Person1.png" />
