@@ -107,6 +107,12 @@
     <Compile Include="frmErrorProvider.Designer.cs">
       <DependentUpon>frmErrorProvider.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmGroupBoxvsPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGroupBoxvsPanel.Designer.cs">
+      <DependentUpon>frmGroupBoxvsPanel.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmHome.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -261,6 +267,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmErrorProvider.resx">
       <DependentUpon>frmErrorProvider.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGroupBoxvsPanel.resx">
+      <DependentUpon>frmGroupBoxvsPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmHome.resx">
       <DependentUpon>frmHome.cs</DependentUpon>
