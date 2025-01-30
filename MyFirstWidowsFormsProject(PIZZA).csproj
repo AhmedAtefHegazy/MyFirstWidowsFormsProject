@@ -268,6 +268,9 @@
     <EmbeddedResource Include="frmDateTimePicker.resx">
       <DependentUpon>frmDateTimePicker.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmDialogs.resx">
+      <DependentUpon>frmDialogs.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmDrawing_In_C#.resx">
       <DependentUpon>frmDrawing_In_C#.cs</DependentUpon>
     </EmbeddedResource>
