@@ -89,6 +89,12 @@
     <Compile Include="frmComboBoxExercise.Designer.cs">
       <DependentUpon>frmComboBoxExercise.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmContextMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmContextMenu.Designer.cs">
+      <DependentUpon>frmContextMenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmDateTimePicker.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -148,6 +154,24 @@
     </Compile>
     <Compile Include="frmMaskedTextBox.Designer.cs">
       <DependentUpon>frmMaskedTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMDIContainer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMDIContainer.Designer.cs">
+      <DependentUpon>frmMDIContainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMDI_Child.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMDI_Child.Designer.cs">
+      <DependentUpon>frmMDI_Child.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenuStrip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuStrip.Designer.cs">
+      <DependentUpon>frmMenuStrip.cs</DependentUpon>
     </Compile>
     <Compile Include="frmMessageBox.cs">
       <SubType>Form</SubType>
@@ -265,6 +289,9 @@
     <EmbeddedResource Include="frmComboBoxExercise.resx">
       <DependentUpon>frmComboBoxExercise.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmContextMenu.resx">
+      <DependentUpon>frmContextMenu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmDateTimePicker.resx">
       <DependentUpon>frmDateTimePicker.cs</DependentUpon>
     </EmbeddedResource>
@@ -294,6 +321,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmMaskedTextBox.resx">
       <DependentUpon>frmMaskedTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMDIContainer.resx">
+      <DependentUpon>frmMDIContainer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMDI_Child.resx">
+      <DependentUpon>frmMDI_Child.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenuStrip.resx">
+      <DependentUpon>frmMenuStrip.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMessageBox.resx">
       <DependentUpon>frmMessageBox.cs</DependentUpon>

@@ -174,5 +174,23 @@ namespace MyFirstWidowsFormsProject_PIZZA_
             Form frm = new frmDialogs();
             frm.ShowDialog();
         }
+
+        private void button25_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmMDIContainer();
+            frm.ShowDialog();
+        }
+
+        private void button26_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmMenuStrip();
+            frm.ShowDialog();
+        }
+
+        private void button27_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmContextMenu();
+            frm.ShowDialog();
+        }
     }
 }
